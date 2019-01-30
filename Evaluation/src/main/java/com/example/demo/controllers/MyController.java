@@ -15,7 +15,7 @@ public class MyController {
     @GetMapping(value = "/all")
     public @ResponseBody ResponseEntity<String> getMessage() {
 
-        String status = "This endpoint can be accessed by everyone";
+        String status = "This endpoint can be accessed by everyone. Modified 09:30.";
 
         return new ResponseEntity<String>(status, HttpStatus.OK);
     }
